@@ -9,4 +9,9 @@ variable "client_id" {
   type        = string
 }
 
+variable "rg_id" {
+  description = "Application (client) ID"
+  type        = string
+}
+
 # ... autres variables
